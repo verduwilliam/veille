@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="bmw.css">
+  <title>BMW connectée</title>
+  <script type="text/javascript">
+    function change_onglet(nom) {
+      document.getElementById("onglet_"+ancre).className = "onglet_inactif onglet";
+      document.getElementById("onglet_"+nom).className = "onglet_actif onglet";
+      document.getElementById("contenu_onglet_"+ancre).style.display = "none";
+      document.getElementById("contenu_onglet_"+nom).style.display = "block";
+      ancre = nom;
+    }
+  </script>
+</head>
+<body>
+  <div id="txtheader"><h1>Nouvelle BMW série 5</h1></div>
+  <img src="images/logo.png" alt="Logo BMW" id="header">
+  <div class="onglets">
+    <span class="onglet_inactif onglet" id="onglet_presentation" onclick="javascript:change_onglet('presentation');">Présentation de BMW</span>
+    <span class="onglet_inactif onglet" id="onglet_classique" onclick="javascript:change_onglet('classique');">Equipements classiques</span>
+    <span class="onglet_inactif onglet" id="onglet_connecté" onclick="javascript:change_onglet('connecté');">Equipements connectés</span>
+    <span class="onglet_inactif onglet" id="onglet_démo" onclick="javascript:change_onglet('démo');">Démonstration</span>
+  </div>
+  <div class="contenu_onglets">
+    <div class="contenu_onglet" id="contenu_onglet_presentation">
+      <h2>Histoire de BMW</h2>
+
+      <h3>Premières années</h3>
+      <p>BMW est créée le 7 mars 1916, par fusion de deux entreprises de mécanique de Munich, la Bayerische Flugzeugwerke et Rapp Motorenwerke, un fabricant de moteurs d'avion. L'emblème de la marque BMW reprend le cercle noir du logo de Rapp, avec au centre le bleu et blanc symbolisant les couleurs de la Bavière.</p>
+      <p>Lorsque l'entreprise devient la « Bayerische Motoren Werke », en 1917, ses dirigeants décident d'utiliser les couleurs de la Bavière. Toutefois, pour ménager les susceptibilités de la monarchie très centralisatrice à l'époque (l'Allemagne n'est unie que depuis 1871) et éviter de raviver les tendances régionalistes, les couleurs bavaroises sont inversées, le bleu passant avant le blanc. En 1929, douze ans après la création du logo BMW, un lien est fait sur une publicité avec la symbolisation d'une hélice. L'hélice n'est donc pas à l'origine du logo, mais les services de marketing y voyant des avantages laissèrent la légende perdurer.</p>
+      <p>À la suite de la défaite de l'Allemagne lors de la Première Guerre mondiale, il lui fut interdit de produire des avions ainsi que des moteurs pour son pays, et l'entreprise fut donc forcée de se reconvertir. Elle se diversifia et produisit des moteurs pour motocyclettes (1922, avec un bicylindre à plat dessiné par Max Friz), camions et voitures. La production de motos prit de l'importance, avec un investissement important dans la compétition. En 1929, une BMW atteint 216,75 km/h, pilotée par l'Allemand Ernst Jakob Henne.</p>
+      <p>En dehors d'un record d'altitude clandestin en 1920 (9 760 mètres), la production de moteurs d'avions reprit dans les années 1930, d'abord avec la fabrication sous licence de moteurs américains Pratt & Whitney, puis avec le moteur en étoile BMW 801 qui équipa le Focke-Wulf Fw 190. Entre 1939 et 1943, BMW développe le moteur à réaction BMW 003, considéré comme le premier turboréacteur moderne au monde avec son compresseur axial et son étage de combustion annulaire.</p>
+      <p>En 1928, BMW rachète le constructeur allemand Dixi dont les usines sont situées à Eisenach et se lance dans l'assemblage de la minuscule Austin Seven anglaise dont Dixi a acquis la licence de construction. C'est ainsi que naît en 1929 la 3/15 PS (3 vitesses, 15 ch). La principale modification aura été de passer toute la visserie et boulonnerie des pas Whitworth aux pas métriques. Une 3/15 PS gagne la Coupe des Alpes en 1929.</p>
+      <p>En 1930, sort un modèle nommé Wartburg, de 748 cm<sup>3</sup>. En 1933 sortent la 303, équipée d'un 6-cylindres de 1 773 cm<sup>3</sup> et la 315 de 1 490 cm<sup>3</sup>.</p>
+      <p>Les activités motocyclistes continuent, puisque la 100 000e moto sort en 1938 et que le record de vitesse passe à 279,5 km/h en 1939. Le modèle R 75 avec side-car équipera l'armée.</p>
+
+      <h3>BMW et le nazisme</h3>
+      <p>Selon Joachim Scholtyseck, un historien indépendant, Günther Quandt, important actionnaire de BMW, ainsi que ses fils Herbert et Harald (dont la mère a épousé Joseph Goebbels en secondes noces), « faisaient partie du régime » nazi. Ainsi, durant la Seconde Guerre mondiale, BMW a exploité plus de cinquante mille travailleurs forcés, prisonniers de guerre ou issus de camps de concentration, notamment dans le camp d'Allach, et ce, parfois, jusqu'à la mort. Dans son enquête publiée fin septembre 2011, cet historien qualifie Günther Quandt d'« entrepreneur sans scrupules » et démontre l'origine immorale de son immense fortune, issue notamment de la spoliation des entrepreneurs juifs. BMW participe, avec onze autres groupes allemands, à un fonds d'indemnisation des victimes du travail forcé sous le nazisme, doté fin 1999 de dix milliards de Deutsche Marks.</p>
+      <p>En novembre 2007, le Norddeutscher Rundfunk présente le film Das Schweigen der Quandts (« Le Silence des Quandt »). Le film montre des centaines de prisonniers devenus incapables de travailler après avoir servi dans l'usine d'accumulateurs des Quandt à Hanovre-Stöcken et logés dans une succursale du camp de concentration de Neuengamme. Ils furent déportés à Gardelegen et y furent assassinés dans la grange d'Isenschnibbe.</p>
+
+      <h3>De 1945 à nos jours</h3>
+      <p>En 1945, l'usine de Munich est presque totalement détruite et celle d'Eisenach en Thuringe est occupée par les Soviétiques. Ceux-ci vandalisent les usines et s'emparent de la technologie de BMW, le siège de Munich est « dévalisé » par les Britanniques au titre des dommages de guerre. En 1948, La société doit alors se contenter de la production de motocyclettes et d'équipements ménagers et électroménagers. 1950, le secteur automobile repart à son tour, avec la sortie d’une grosse berline, la 501. Trop chère et presque indécente dans une Allemagne qui n’en finit pas de déblayer ses ruines, elle ne connaîtra qu’une diffusion confidentielle.</p>
+      <p>En 1952, l'entreprise d'Eisenach (située en Allemagne de l'Est) est nationalisée. Jusqu'à cette période, l'usine de Munich n'avait jamais produit de voitures. En 1952, la production d'automobiles démarre avec des modèles faisant pâle figure à côté de leur concurrent direct, l'allemand Mercedes-Benz. À cette époque, BMW fabrique aussi bien une huit-cylindres (la 502) que l'Isetta, petit véhicule urbain, sous licence italienne ISO Rivolta, équipé d'un monocylindre quatre-temps issu d'une moto de la gamme de l'époque et qui se vend à plus de 150 000 exemplaires. Cependant, le coût élevé de sa production endette un peu plus encore BMW. En 1959, la production de la 700 assure un sursis à la société au bord de la faillite.</p>
+      <p>La reprise en main de la gestion de la société par Herbert Quandt, fils de l'industriel Günther Quandt, qui devient un des principaux actionnaires, réoriente radicalement la stratégie de l'entreprise, axée sur des modèles plus abordables et plus proches de la demande (dans une Allemagne ruinée par la guerre) avec un nouveau slogan « Die neue Klasse » (« la nouvelle classe »). Il fait table rase de la hiérarchie préexistante et introduit un système basé sur la méritocratie dans la culture de l'entreprise, ce qui permet à celle-ci de connaître un essor sans précédent.</p>
+      <p>La BMW 1500 est présentée en 1961 au Salon de l'automobile de Francfort, ce qui tourne une page dans l'histoire de la marque. Motocyclettes et automobiles font gagner à BMW sa notoriété lors de confrontations sportives.</p>
+      <p>En 1966, BMW rachète le constructeur allemand Glas.</p>
+      <p>En 1994, sous l'ère Bernd Pischetsrieder, la société prend le contrôle du Groupe Rover, successeur de British Leyland. Mais six ans plus tard, Rover continue à subir des pertes colossales et BMW cède Rover et Morris Garage au consortium britannique Phoenix Venture Holdings (PVH).</p>
+      <p>En décembre 1994, BMW signe un accord avec le groupe britannique Vickers propriétaire de Rolls Royce et Bentley, pour la production commune de moteurs.</p>
+      <p>En 1998, BMW rachète le fabricant de voitures de luxe Rolls-Royce, qui lance en janvier 2003 la Rolls-Royce Phantom, son premier modèle en tant que filiale de BMW.</p>
+      <p>En 2000, BMW vend Land Rover à Ford mais conserve Mini.</p>
+      <p>Depuis 2001, BMW commercialise une toute nouvelle version de la Mini.</p>
+      <p>En 2007, BMW rachète au groupe italien MV Agusta le constructeur de motos suédois Husqvarna que la marque intègre dans sa division moto, BMW Motorrad, et annonce poursuivre la production en Italie.</p>
+      <p>Le 31 janvier 2013, BMW vend Husqvarna au constructeur autrichien Pierer Industrie AG, pour se concentrer sur la production de véhicules urbains et électriques.</p>
+      <p>En août 2015, Nokia vend sa filiale de cartographie Here à un consortium de constructeurs automobiles allemands incluant BMW, Audi et Daimler, pour 2,8 milliards d'euros.</p>
+    </div>
+
+    <div class="contenu_onglet" id="contenu_onglet_classique">
+      <img src="images/equipement.jpg" alt="Equipement" class="images">
+      <ul>
+        <li>Aides à la conduite :</li>
+        <ul>
+          <li>régulateur de vitesse intelligent</li>
+          <li>freinage automatique d’urgence</li>
+          <li>suivi de voie</li>
+          <li>braquage automatique des roues</li>
+          <li>dépassement sur simple impulsion de deux secondes sur le commodo de clignotant</li>
+          <li>assistant de circulation à contre-sens</li>
+          <li>assistant d’évitement et d’intersection</li>
+          <li>avertisseur d’angle mort et de franchissement de ligne avec protection active de collision latérale</li>
+          <li>assistant en embouteillages</li>
+          <li>avertisseur de trafic transversal avant et arrière</li>
+          <li>protection active des piétons</li>
+        </ul>
+        <li>Affichage tête haute HUD Couleur, qui projette en surimpression sur le bas du pare-brise les données essentielles (navigation, limitation de vitesse, vitesse)</li>
+    </div>
+
+    <div class="contenu_onglet" id="contenu_onglet_connecté">
+      <img src="images/cle.jpg" alt="BMW Display Key" class="images">
+      <ul>
+        <li>Possibilité :</li>
+        <ul>
+          <li>de verrouiller à distance les portes et le coffre</li>
+          <li>d'activer le capteur de mouvement et l’alarme</li>
+          <li>d’agir sur l’éclairage</li>
+          <li>de voir l’autonomie restante</li>
+          <li>de programmer la climatisation avant le départ</li>
+        </ul>
+        <li>Park Assist Plus:</li>
+      </ul>
+
+    </div>
+
+    <div class="contenu_onglet" id="contenu_onglet_démo">
+      <div class="yt">
+        <iframe src="https://www.youtube.com/embed/48uBGfbxiB8" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+  </div>
+  <script type="text/javascript">
+    var ancre = 'presentation';
+    change_onglet(ancre);
+  </script>
+</body>
+</html>
