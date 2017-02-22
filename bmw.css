@@ -78,6 +78,28 @@ iframe {
   margin-top: 2em;
 }
 
+.images {
+  width: 70%;
+  display: block;
+  margin-left: 15%;
+  margin-top: 2em;
+  filter: blur(3px);
+        -webkit-filter: blur(3px);
+        -moz-filter: blur(3px);
+        -o-filter: blur(3px);
+        -ms-filter: blur(3px);
+  transition: 1s;
+  -webkit-transition: 1s;
+}
+
+.images:hover {
+  filter: blur(0);
+        -webkit-filter: blur(0);
+        -moz-filter: blur(0);
+        -o-filter: blur(0);
+        -ms-filter: blur(0);
+}
+
 #txtheader{
   color: rgb(245,246,252);
   text-align: center;
@@ -92,40 +114,8 @@ iframe {
   box-shadow: 0px 0px 20px 7px #454D52;
 }
 
-@media screen and (min-width: 534px) {
+@media screen and (min-width: 266px) {
   #header {
-    width: 400px;
+    width: 200px;
   }
-}
-
-.images {
-  width: 70%;
-  display: block;
-  margin-left: 15%;
-  margin-top: 2em;
-  /*filter: brightness(25%);
-        -webkit-filter: brightness(25%);
-        -moz-filter: brightness(25%);
-        -o-filter: brightness(25%);
-        -ms-filter: brightness(25%);*/
-  filter: blur(3px);
-        -webkit-filter: blur(3px);
-        -moz-filter: blur(3px);
-        -o-filter: blur(3px);
-        -ms-filter: blur(3px);
-  transition: 1s;
-  -webkit-transition: 1s;
-}
-
-.images:hover {
-  /*filter: brightness(100%);
-        -webkit-filter: brightness(100%);
-        -moz-filter: brightness(100%);
-        -o-filter: brightness(100%);
-        -ms-filter: brightness(100%);*/
-  filter: blur(0);
-        -webkit-filter: blur(0);
-        -moz-filter: blur(0);
-        -o-filter: blur(0);
-        -ms-filter: blur(0);
 }
