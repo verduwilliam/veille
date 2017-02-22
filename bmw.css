@@ -23,6 +23,7 @@ iframe {
 	width: 85%;
 	height: 85%;
   margin-left: 7.5%;
+  border: 0px;
 }
 
 .onglet {
@@ -98,6 +99,10 @@ iframe {
         -moz-filter: blur(0);
         -o-filter: blur(0);
         -ms-filter: blur(0);
+}
+
+.nopoint {
+  list-style: none;
 }
 
 #txtheader{
