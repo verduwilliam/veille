@@ -35,6 +35,7 @@ iframe {
   height: 2em;
   box-sizing: border-box;
   font-family: sans-serif;
+  cursor: url('images/cursor.png') 5 5, auto;	
 }
 
 .onglet:first-child {
