@@ -41,8 +41,8 @@ a:hover {
   float: left;
 	margin: 0px;
 	padding: 0.5em 0em;
-	border: 1px solid black;
-  height: 3em;
+	border: 3px inset rgb(140,163,177);
+  height: 3.5em;
   box-sizing: border-box;
   font-family: sans-serif;
 }
@@ -53,7 +53,7 @@ a:hover {
 
 .onglet_inactif {
 	background-color: rgb(45,156,219);
-	border-bottom: 1px solid black;
+	border-bottom: 3px inset rgb(140,163,177);
   width: 15%;
   overflow: hidden;
   margin-bottom: -12.5px;
@@ -65,7 +65,7 @@ a:hover {
 	padding-bottom: 0.55em;
   width: 40%;
   padding-left: 1em;
-  background-image: url("images/bmw.png");
+  background-image: url("../images/bmw.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -73,7 +73,7 @@ a:hover {
 
 .contenu_onglet {
 	background-color: rgb(245,246,252);
-	border: 1px solid black;
+	border: 3px inset rgb(140,163,177);
 	padding: 0.7em;
   margin-top: 1.5em;
 	display: none;
@@ -132,5 +132,11 @@ a:hover {
 @media screen and (min-width: 266px) {
   #header {
     width: 200px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  p, ul {
+    padding: 0em 1em;
   }
 }
